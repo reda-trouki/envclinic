@@ -1,0 +1,14 @@
+{
+  "name": "envclinic-example-nestjs",
+  "private": true,
+  "scripts": {
+    "env:audit": "envclinic audit --ci",
+    "env:types": "envclinic types --check"
+  },
+  "dependencies": {
+    "@nestjs/core": "^10.0.0"
+  },
+  "devDependencies": {
+    "envclinic": "latest"
+  }
+}

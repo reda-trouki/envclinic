@@ -1,0 +1,10 @@
+{
+  "scan": { "directories": ["app", "lib"] },
+  "ignore": { "variables": ["NEXT_RUNTIME"] },
+  "types": { "enabled": true, "output": "env.d.ts" },
+  "schema": {
+    "DATABASE_URL": { "type": "url", "protocols": ["postgresql", "postgres"], "description": "PostgreSQL connection string" },
+    "AUTH_SECRET": { "type": "string", "minLength": 32, "secret": true, "description": "Session signing key" },
+    "NEXT_PUBLIC_API_URL": { "type": "url", "protocols": ["https"], "required": false, "default": "https://api.example.com" }
+  }
+}

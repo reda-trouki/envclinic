@@ -1,0 +1,4 @@
+PORT=3000
+DATABASE_URL=postgresql://localhost:5432/app
+JWT_SECRET=q7Zr2Lw9Xc4Vn8Bm1Kd5Hs3Jf6Tg0Pa
+OLD_FLAG=1

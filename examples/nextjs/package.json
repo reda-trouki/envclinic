@@ -1,0 +1,15 @@
+{
+  "name": "envclinic-example-nextjs",
+  "private": true,
+  "scripts": {
+    "env:audit": "envclinic audit",
+    "env:types": "envclinic types"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0"
+  },
+  "devDependencies": {
+    "envclinic": "latest"
+  }
+}
